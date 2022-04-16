@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nonogram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/puzzle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <h1 id="title">Nonogram</h1>
+        </div>
+        <div id="content">
+            <div id="main">
+                <ul>
+                    <li>Left click to fill the block</li>
+                    <li>Right click to mark a cross on the block</li>
+                </ul>
+                <h5>Choose game difficulty</h5>
+                <div class="btn-group btn-group-lg" role="group">
+                    <button type="button" class="btn btn-primary start-btn" data-size="5">Easy</button>
+                    <button type="button" class="btn btn-primary start-btn" data-size="10">Medium</button>
+                    <button type="button" class="btn btn-primary start-btn" data-size="15">Hard</button>
+                </div>
+            </div>
+            <div id="board">
+                <h2 id="progress-text"></h2>
+                <div class="progress my-2">
+                    <div id="progress-bar" class="progress-bar" role="progressbar"></div>
+                </div>
+                <table id="table" class="my-2" border="1"></table>
+                <button type="button" class="btn btn-primary" id="btn-reset">Reset</button>
+                <button type="button" class="btn btn-primary" id="btn-newGame">New game</button>
+                <button type="button" class="btn btn-primary" id="btn-back">Back to main</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/puzzle.js"></script>
+</body>
+
+</html>

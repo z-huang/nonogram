@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+	font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+	font-weight: 400;
+	background-color: #ecf0f1;
+}
+
+.navbar {
+	background-color: #1e88e5!important;
+}
+
+.jumbotron {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+}
+
+a.nav-link:hover {
+	color: rgba(255, 255, 255, 0.9)!important;
+}
+
+a.nav-link:active {
+	color: rgba(255, 255, 255, 0.5)!important;
+}
